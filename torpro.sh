@@ -76,8 +76,8 @@ echo "UseBridges 1" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "ClientTransportPlugin obfs4 exec /data/data/com.termux/files/usr/bin/obfs4proxy" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
-echo "Bridge 212.21.66.33:443 ABDAD5816A223252639393535FB5D2C8E78888F9" >> $PREFIX/etc/tor/torrc
-echo "Bridge 153.136.93.30:61110 109A1782E48741FBEF7FECE0CE409B6404A6C14C" >> $PREFIX/etc/tor/torrc
+echo "Bridge obfs4 185.107.83.29:41125 C991491CC0E51433236B408A6C085E1D613F8792 cert=3/HbqThp8IackQNXUtJEG4xa4Iv0HgGkAdr/gEcb1WWfbc6ewjdp2a2DYjrYhf/keYcqUw iat-mode=0" >> $PREFIX/etc/tor/torrc
+echo "Bridge obfs4 85.143.214.143:6697 2A92890043632E0C126029BED54FD68C8B224507 cert=EtuUbek0ufQp3ggoGPya28Lcr6duKwOexVcqT4MopHWikUnhsyVFTG1cMzHTYVKipZDfKw iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "...done ✅"
 sleep 4
