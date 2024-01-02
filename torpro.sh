@@ -76,7 +76,7 @@ echo "UseBridges 1" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "ClientTransportPlugin obfs4 exec /data/data/com.termux/files/usr/bin/obfs4proxy" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
-echo "Bridge 95.165.139.85:43190 D640D4715CC1109E27A808C8A9BB7E9C3CD51D86" >> $PREFIX/etc/tor/torrc
+echo "Bridge 71.237.132.115:9002 02CF4A4B20778B05D4B22D0B5B27BF45BD3FDFC5" >> $PREFIX/etc/tor/torrc
 echo "Bridge 209.141.52.17:9001 66DA7145234C2885B6AA5630E8B806D136963E28" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "...done ✅"
