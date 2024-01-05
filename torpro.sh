@@ -76,8 +76,8 @@ echo "UseBridges 1" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "ClientTransportPlugin obfs4 exec /data/data/com.termux/files/usr/bin/obfs4proxy" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
-echo "Bridges 71.237.132.115:9002 02CF4A4B20778B05D4B22D0B5B27BF45BD3FDFC5 cert=/hJ7CSntMsrtrgqCuHDB50KwON484UCjfZfyeDeOTiDV+ZAPZKesTOaW9I9GjXkzccZwWQ" >> $PREFIX/etc/tor/torrc
-echo "Bridges 95.217.15.199:8080 EC9BEAD00023E65181280F9764ECE936EC942DDF cert=GqY0rnU7XZvWhDWnJNzNc+9Q7Oq6ptNGaYHL83eXEItGlmSb1MfB3OPyZaOm6g6gpGULFA" >> $PREFIX/etc/tor/torrc
+echo "Bridge obfs4 199.231.235.49:4664 D647046757C6CF1A7CB57310479BBB0EC94611A7 cert=xLgw+4tqdmSjZVVYloA4+m4hDEj6AlKQc2nZRyDVJ+zuswS/BjZtl4GXGwo9IgaUsxZPXw iat-mode=0" >> $PREFIX/etc/tor/torrc
+echo "Bridge obfs4 2604:5500:5028:f300::100c:30334 82EBEB1209A3FB00817EF60AE31236BCFF54D043 cert=TJWr/T+Li4ukVYl2p/MGXMnz+mtV0p8/QSIG80B4EABf237btZZxl1Opf3SVo+Rj/BD6Vw iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "...done ✅"
 sleep 4
