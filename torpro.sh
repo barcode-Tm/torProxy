@@ -4,8 +4,8 @@ Purple="\033[1;35m"
 Cyan="\033[0;36m"
 echo -e "$Purple                           𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗶𝗱 : @barcode_Tm"
 echo -e "$Cyan                                 Tor Proxy V9.0 ✅
-add proxy socks 5 : 127.0.0.1:9050 " 
-sleep 2
+                                      add proxy socks 5 : 127.0.0.1:9050 " 
+sleep 3
 
 echo "android Tor+obfs4 installer in Termux"
 pkg install tor obfs4proxy -y
@@ -15,8 +15,8 @@ echo "" >> $PREFIX/etc/tor/torrc
 echo "ClientTransportPlugin obfs4 exec /data/data/com.termux/files/usr/bin/obfs4proxy" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "Bridge obfs4 65.108.214.170:23909 8ABD0C0130A37EB3F686F883BCE6D5E59F66C228 cert=mJZdHhaAk6VzaOjQA1UWGkVbDbGqLRuNSuBSk0evlfKRKVzb2EmNio2N0ja+JG1to8KWYw iat-mode=0" >> $PREFIX/etc/tor/torrc
-echo "Bridge obfs4 78.137.211.43:44557 7126F64A4D131161171BD9EEBEFBEC973BB42661 cert=JkkZF7RI7nuukD96c6FEjUgrJhvsjUJaGYp53PC/C/a5TynoEU+MMb3bFavEd6RMv3c9SQ iat-mode=0" >> $PREFIX/etc/tor/torrc
-echo "Bridge obfs4 85.195.247.105:42501 9F548604BD5AB011F13301D843F83E1A8DA57A0D cert=I5iJp4egNJbz+20QsW02sgSBC6giNQhsbGtLATeAgzwSWdJfxvXbAY+hhWlBqmpuo+plKQ iat-mode=0" >> $PREFIX/etc/tor/torrc
+echo "Bridge obfs4 199.231.235.49:4664 D647046757C6CF1A7CB57310479BBB0EC94611A7 cert=xLgw+4tqdmSjZVVYloA4+m4hDEj6AlKQc2nZRyDVJ+zuswS/BjZtl4GXGwo9IgaUsxZPXw iat-mode=0" >> $PREFIX/etc/tor/torrc
+echo "Bridge obfs4 51.68.82.18:9352 FCC768CD8D8E9CB1ECE0B62788FB818F1A00C1DA cert=CQH9+HzSPEroMXABJ6/X6O0gJ4Zf3B0GszsbgAvOp6szJhCAKmiMBfHEUd1PoVDsT6pbCA iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "Bridge obfs4 104.225.252.62:443 F4E767FFFB17CADA5586135908352D3CA12ECD71 cert=IEaYB8b1oM1CtD8WKysJZz6PfNhyiQSKP309xg5G7IopUmleepEmejhg80K1bwaruoFnTg iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "Bridge obfs4 83.212.97.47:54187 80FCA5A349AE7E5C2C8503BFB908D4204FDB9C3E cert=IfdoBRxcIl/l5YrMUxFrNSOOI5DjU3w8IcZI/CQMbpzBj/UdpdCZsT5yfbZ1MFL6xmTTGw iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "Bridge obfs4 45.15.23.17:443 115C90EBD0EB631C177560A872535772215478D9 cert=UsuF7oN4KNKviZP54JOyTCoCphrdM5gwZK4vT8GnCAcmqLUJEJxyw1dpko9a/ii6He4iZg iat-mode=0" >> $PREFIX/etc/tor/torrc
@@ -40,4 +40,4 @@ echo "Bridge obfs4 194.135.89.71:443 5D21705C1F5364C2C965C7102C9F0A984E687684 ce
 echo "Bridge obfs4 94.158.245.44:34957 476C28AB2FD849067B6D83339D02FF2C97CB5672 cert=AzbVeFjSDaX6jBkBf44CfDIRe8tdlnlB6PLestmnXLvDvoczjfF3Rn34258kkyk58bCYGA iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
 echo "...done"
-sleep 4
+sleep 2
