@@ -2,10 +2,17 @@
 #colors
 Purple="\033[1;35m"
 Cyan="\033[0;36m"
-echo -e "$Purple                           𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗶𝗱 : @barcode_Tm"
-echo -e "$Cyan                                 Tor Proxy V9.0 ✅
-                                      add proxy socks 5 : 127.0.0.1:9050 " 
+
+
+
+
+
+echo -e "$Purple 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗶𝗱 : @barcode_Tm"
+echo -e "$Cyan Tor Proxy V9.0 ✅
+add proxy socks 5 : 127.0.0.1:9050 " 
 sleep 3
+
+
 
 echo "android Tor+obfs4 installer in Termux"
 pkg install tor obfs4proxy -y
