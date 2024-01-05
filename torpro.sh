@@ -2,11 +2,9 @@
 #colors
 Purple="\033[1;35m"
 Cyan="\033[0;36m"
-echo                                                    Tor Proxy V9.0 ✅
-echo                                                     Add Proxy Socks 5 : 127.0.0.1:9050
-echo -e "$Purple                           𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗶𝗱 : @barcode_Tm
-echo -e "$Cyan                               
-Tor Proxy V9.0 ✅" 
+echo -e "$Purple                           𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗶𝗱 : @barcode_Tm"
+echo -e "$Cyan                                 Tor Proxy V9.0 ✅
+add proxy socks 5 : 127.0.0.1:9050 " 
 sleep 7
 
 echo "android Tor+obfs4 installer in Termux"
@@ -41,5 +39,5 @@ echo "Bridge obfs4 37.218.245.14:38224 D9A82D2F9C2F65A18407B1D2B764F130847F8B5D 
 echo "Bridge obfs4 194.135.89.71:443 5D21705C1F5364C2C965C7102C9F0A984E687684 cert=nz/53KYM6QIvReGaC5eAsosEPPXVW9B+EdENFd9yMjaUmKcHLX/149gxBjsXlUeZZi9IFw iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "Bridge obfs4 94.158.245.44:34957 476C28AB2FD849067B6D83339D02FF2C97CB5672 cert=AzbVeFjSDaX6jBkBf44CfDIRe8tdlnlB6PLestmnXLvDvoczjfF3Rn34258kkyk58bCYGA iat-mode=0" >> $PREFIX/etc/tor/torrc
 echo "" >> $PREFIX/etc/tor/torrc
-echo "...done ✅"
+echo "...done"
 sleep 4
